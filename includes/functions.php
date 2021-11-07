@@ -109,6 +109,7 @@ function convert_area($value, $from_unit, $to_unit) {
   $meter_value = convert_to_square_meters($value, $from_unit);
   $new_value = convert_from_square_meters($meter_value, $to_unit);
   return $new_value;
+  
 }
 
 
